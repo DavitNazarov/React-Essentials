@@ -1,2 +1,8 @@
-#### React essentials 
-demo https://66bc4e427cf6ac421776e92b--coruscating-mermaid-e2d666.netlify.app/
+# React essentials
+
+Welcome to my new project: **React essentials**.
+
+I built an interactive demo web app with React,
+######
+This Is my first demo app to improve my skills and show what I already know.
+##### Demo: https://react0essentials.netlify.app/
