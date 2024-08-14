@@ -5,10 +5,13 @@ import TabBtn from "./components/TabBtn.jsx";
 import { CORE_CONCEPTS, EXAMPLES } from "./data.js";
 
 function App() {
-  const [clickedTopic, setClickedTopic] = useState();
-  const handleClick = (ClickedValue) => {
-    setClickedTopic(ClickedValue);
+  const [clickedTopic, setClickedTopic] = useState("");
+  const handleClick = (clickedValue) => {
+    setClickedTopic(clickedTopic === clickedValue ? "" : clickedValue);
+    // console.log("value", clickedValue);
+    // console.log("Topic", clickedTopic);
   };
+  // console.log("topic2", clickedTopic);
 
   return (
     <div>
