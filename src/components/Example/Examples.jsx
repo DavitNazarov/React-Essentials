@@ -14,6 +14,7 @@ const Examples = () => {
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        ButtonsConteiner="menu"
         buttons={
           <>
             <TabBtn

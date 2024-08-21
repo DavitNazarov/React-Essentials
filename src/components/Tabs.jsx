@@ -1,7 +1,8 @@
-const Tabs = ({ children, buttons }) => {
+const Tabs = ({ children, buttons, ButtonsConteiner = "div" }) => {
+  // const ButtonConteiner = buttonsConteiner;
   return (
     <>
-      <menu>{buttons} </menu>
+      <ButtonsConteiner>{buttons} </ButtonsConteiner>
       {children}
     </>
   );
