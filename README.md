@@ -13,6 +13,4 @@
 1. Visit the live site at [React Essentials](https://react0essentials.netlify.app/).
 2. Explore the examples to understand React fundamentals.
 
----
 
-Enjoy learning React!
